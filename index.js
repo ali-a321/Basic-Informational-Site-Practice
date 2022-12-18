@@ -39,7 +39,7 @@ const server = http.createServer((req,res) => {
         })
     }
     else {
-        res.writeHead(200, {'Content-type': 'text/html'})
+        res.writeHead(404, {'Content-type': 'text/html'})
         fs.readFile('404.html', function(error,data) {
             if(error){
                 res.writeHead(404)
