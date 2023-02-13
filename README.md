@@ -1,2 +1,2 @@
-# Basic-Informational-Site-Practice
-Very basic informational site using Node
+# Basic-Informational-Site
+Very basic informational site using Node.
